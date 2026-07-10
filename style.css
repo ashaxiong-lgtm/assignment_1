@@ -9,13 +9,14 @@ nav{
     justify-content:space-between;
     align-items: center;
     background-color:#FFFFFF ;
-    color:#575757;
+    
     
     
 }
 nav a{
     padding:10px;
     text-decoration: none;
+    color:#575757;
 }
 .image{
     font-size: 10px;
