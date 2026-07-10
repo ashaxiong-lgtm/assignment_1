@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+}
+nav{
+    display:flex;
+    padding:20px 60px;
+    marrgin:10px;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#FFFFFF ;
+    color:#575757;
+    
+    
+}
+nav a{
+    padding:10px;
+    text-decoration: none;
+}
+.image{
+    font-size: 10px;
+    font-weight: 10px;
+}
+.btn{
+background-color:#1D4ED8 ;    
+color:white;
+padding:10px 20px;
+border-radius: 10px;
+border: 3px;
+cursor: pointer;
+}
