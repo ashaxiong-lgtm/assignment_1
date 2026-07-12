@@ -113,6 +113,7 @@ section h1{
 .container{
    display: grid;
     grid-template-columns: repeat(3, 1fr);  
+ gap: 70px;
 }
 .mid{
     text-align: center;
@@ -120,3 +121,140 @@ section h1{
     color: #575757;
     font-size: small;
 }
+.card-standard{
+border: 0.5px solid #E5E7EB;
+border-radius:12px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+}
+.active{
+
+    background:#0D1B2A;
+    color:white;
+    border-radius:12px;
+    padding:30px;
+   display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+.team{
+    border: 0.5px solid #E5E7EB;
+border-radius:12px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+ul{
+
+    padding-left:20px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.card-standard li{
+    color: #333333;
+    font-size: small;
+}
+.team li{
+    color: #333333;
+     font-size: small;
+}
+.container div p{
+   
+     font-size: small;
+}
+.card-standard p{
+     color: #333333;
+}
+
+.team p{
+     color: #333333;
+}
+.active ul li{
+    font-size: small;
+}
+.card-standard button{
+
+    color: #2563EB;
+    border-radius: 10px;
+    height: 40px;
+    border-color:#2563EB ;
+}
+.active button{
+    background-color: #2563EB;
+    color:#FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+
+}
+.team button{
+    color:#0D1B2A;
+    border-radius: 10px;
+    height: 40px;
+    border-color:#0D1B2A ;
+    
+}
+.journey-section{
+    background:#f7f4ff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.journey-section h2{
+    color:#6b46ff;
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.journey-text{
+    color:#555;
+    max-width:700px;
+    margin:0 auto 45px;
+    line-height:1.7;
+}
+
+.journey-paths{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.path-box{
+    width:290px;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    border-top:5px solid #6b46ff;
+    transition:.3s;
+}
+
+.path-box:hover{
+    transform:translateY(-8px);
+}
+
+.path-box h3{
+    color:#6b46ff;
+    margin-bottom:15px;
+}
+
+.path-box p{
+    color:#666;
+    line-height:1.6;
+}
+
+.path-box span{
+    display:inline-block;
+    margin-top:18px;
+    padding:8px 15px;
+    background:#eee8ff;
+    border-radius:20px;
+    color:#6b46ff;
+    font-size:14px;
+}
+
+
