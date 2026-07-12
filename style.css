@@ -256,5 +256,25 @@ ul{
     color:#6b46ff;
     font-size:14px;
 }
+footer{
 
+    background-color: #0D1B2A;
+    padding: 20px;
 
+}
+footer div {
+    display: flex;
+justify-content: space-between;
+}
+.fot{
+      gap: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size:x-small;
+}
+footer p{
+color: #FFFFFF;
+font-size:x-small;
+}

@@ -1,0 +1,1 @@
+Suggest unique section ideas for a DevConf 2026 landing page that are more creative than Sponsors, FAQ, or Newsletter. The section should fit a developer conference and be possible to build using only HTML and CSS.
